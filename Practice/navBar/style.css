@@ -40,7 +40,7 @@ body{
     border-radius: 3px;
 }
 
-.subMenu1 , .subMenu2{
+.subMenu1 , .subMenu2 , .subMenu3{
     display: none;
 }
 
@@ -51,9 +51,10 @@ body{
     margin-top: 15px;
     margin-left: 15px;
 }
-.subMenu2{
-    display: none;
-}
+
+
+
+
 .menu-bar ul li:hover .subMenu2{
     display: block;
     position: absolute;
@@ -80,3 +81,11 @@ body{
 .menu-bar ul li:hover .subMenu2 ul li a:hover , .subMenu1 ul li a:hover{
     color: #b2ff00;   
 }
+.fa{
+    color: #fff;
+    font-weight: bold;
+    float: right;
+}
+
+
+
